@@ -38,6 +38,7 @@ if (!email.includes("@")) {
   return (
    <div className="login-container">
     <div className="login-card">
+      <h1>Login Page</h1>
     <form onSubmit={handleSubmit} className="login-form">
     <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
     <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
